@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Figtree">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- En esta parte se añaden los estilos -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .tarjeta {margin: 0; width: 340px; padding: 20px; 
+              position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+              background-color: hsl(0, 0%, 100%); 
+              text-align: left; border-radius: 15px; border: 1px solid black;
+              box-shadow: 10px 10px black;}
+    .parrafo1 {font-size: 14px; font-weight: 800; padding:1px}
+    .parrafo2 {color: hsl(0, 0%, 7%);}
+    .parrafo3 {font-size: 20px; font-weight: 800; color: hsl(0, 0%, 7%);}
+    .parrafo4 {color: hsl(0, 0%, 42%);}
+    body {
+        font-family: 'Figtree';
+        font-size: 16px; font-weight:500;
+        background-color: hsl(47, 88%, 63%);
+    } 
+    .cuadrito {
+      background-color: hsl(47, 88%, 63%); border-radius: 5px; text-align: center; height: 20px; width: 70px;
+    }
+    .imagenredonda {
+      width:30px; height:30px;
+      border-radius:15px; vertical-align: middle;
+    }
+    .container {
+      display: grid;
+      place-items:center ;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <div class="tarjeta">
+
+    <img src="assets/images/illustration-article.svg" alt="ilustracion" style="border-radius: 10px;"/>
+    <div class="cuadrito">
+      <p class="parrafo1"><b>Learning</b></p>
+    </div>
+    
+    <p class="parrafo2"><b>Published 21 Dec 2023</b></p>
+
+    <p class="parrafo3"><b>HTML & CSS foundations</b></p>
+
+    <p class="parrafo4">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    
+    <p>
+      <img src="assets/images/image-avatar.webp" class="imagenredonda">
+      <b>Greg Hooper</b></p>
+  </div>
+
+</body>
+</html>
